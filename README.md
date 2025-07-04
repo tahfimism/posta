@@ -13,7 +13,7 @@ Posta lets users drop **short text posts**, follow others, and engage with conte
 
 ## **Features**  
 
-### **1. Auth Game Strong**  
+### **1. Auth:**  
 - 🟢 **Register**: New users join the party.  
 - 🔐 **Login/Logout**: Secure sign-in and sign-out.
 
