@@ -1,6 +1,8 @@
 # posta
 Social media site
 
+![Screenshot_4-7-2025_223953_127 0 0 1](https://github.com/user-attachments/assets/68dd1a11-bd38-4000-92e9-8678bddb7f76)
+
 
 ## Core Functionality
 
