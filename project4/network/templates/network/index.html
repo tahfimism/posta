@@ -4,7 +4,7 @@
 
     
     <!-- New post form-->
-     {% if index_title == "All Posts" %}
+     {% if index_title == "All Posts" and request.user.is_authenticated %}
      <form id="new_post_form">
         <div class="form-group">
             <label for="post-content">New Post</label>
@@ -36,7 +36,9 @@
                         {{ post.content }}
                     </div>
                     <div class="post-actions">
+                        {% if request.user.is_authenticated %}
                         <a class="like_button text-muted " data-postid="{{ post.id }}">Like</a> 
+                        {% endif %}
                         <span class="text-muted " id="like_count_{{ post.id }}"> {{ post.like_count }} likes</span>
                     </div>
             </div>

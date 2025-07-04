@@ -10,8 +10,24 @@ body, html {
     font-weight: 500;
     background-color: #0f1011;
     padding-top: 80px
+    
+    
+
 }
 
+@media screen and (min-width: 1000px) {
+    .body {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    .body {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 
 .form-group {
     margin-top: 20px;
@@ -124,7 +140,26 @@ textarea {
     border: none;
     background-color: #262929 !important;
     color: #ffffff;
+
 }
+
+/*
+  The ::placeholder pseudo-element is the standard, but vendor prefixes
+  are needed for broader browser support to ensure the placeholder text is white.
+*/
+textarea::-webkit-input-placeholder { /* For Edge, Chrome, Safari */
+   color: #ffffff;
+}
+
+textarea:-ms-input-placeholder { /* For Internet Explorer 10-11 */
+   color: #ffffff;
+}
+
+textarea::placeholder { /* For Firefox and other standard-compliant browsers */
+    color: #ffffff;
+    opacity: 1; /* Firefox uses this to control placeholder transparency */
+}
+
 
 .profile-head {
     text-align: center;
