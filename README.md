@@ -29,7 +29,7 @@ Posta lets users drop **short text posts**, follow others, and engage with conte
 - 📰 **Following Feed**: Chronological posts from those you follow.
 
 ### **4. Smooth Frontend**  
-- ⚡ **Dynamic AF**: JavaScript + Fetch API for seamless post creation, editing, liking, and following.  
+- ⚡ **Dynamic Frontend**: JavaScript + Fetch API for seamless post creation, editing, liking, and following.  
 - No page refreshes, just pure flow.
 
 ---
