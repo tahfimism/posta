@@ -1,7 +1,8 @@
 # **Posta**  
 **A sleek social media platform for sharing, connecting, and vibing.**
 
-![Posta Preview](https://github.com/user-attachments/assets/68dd1a11-bd38-4000-92e9-8678bddb7f76)
+![Screenshot_4-7-2025_224138_127 0 0 1](https://github.com/user-attachments/assets/00028977-10e9-45f8-8d8f-779705f3a348)
+
 
 ---
 
@@ -53,7 +54,7 @@ Posta lets users drop **short text posts**, follow others, and engage with conte
 - 🎨 **Templates**: Django Templating with `layout.html` for consistency.  
 - 💅 **Styling**: Bootstrap for a clean, responsive look.  
 - 🚀 **JavaScript** (`network/static/network/index.js`):  
-  - Handles dynamic actions (edit, like, follow) with `fetch` API.  
+  - Handles dynamic actions (edit, like, follow) with the `fetch` API.  
   - Updates DOM for instant feedback.
 
 ---
@@ -62,4 +63,10 @@ Posta lets users drop **short text posts**, follow others, and engage with conte
 Powering the dynamic frontend with REST-like vibes:  
 - `POST /new_post/`: Drop a new post.  
 - `PUT /edit_post/<int:post_id>`: Update your post.  
-- `PUT /like
+- `PUT /like_post/<int:post_id>`: Toggle post likes.  
+- `PUT /follow/<int:user_id>`: Toggle follow status.  
+- `GET /load_posts/<str:filter>`: Fetch posts (not primary JS logic).
+
+---
+
+**Built for speed, style, and connection. Posta’s where it’s at.** 
