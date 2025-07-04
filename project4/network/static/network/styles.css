@@ -1,0 +1,174 @@
+
+body, html {
+    background-color: #0f1011;
+    color: #ffffff;
+    
+}
+.body {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: #0f1011;
+    padding-top: 80px
+}
+
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+}
+
+.form-group label {
+    
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group button {
+    background-color: #8bb6fc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #4975bd;
+}
+
+.form-group .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-group .success {
+    color: green;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.form-group .info {
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.post {
+    background-color: #171a1b;
+    border-radius: 2px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #dfe1e544;
+}
+
+#following-posts {
+    cursor: pointer;
+    
+}
+
+.profile-follow-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(73, 182, 255);
+}
+
+#new_post_form  {
+    margin-bottom: 20px;
+    
+}
+
+textarea {
+    margin-right: 20px;
+    width: 80%;
+    border: none;
+    background-color: #262929 !important;
+    color: #ffffff;
+}
+
+.profile-head {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #272d30;
+    padding: 20px 20px;
+}
+
+.profile-title {
+    font-family: Segoe UI; 
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+.post-header a {
+    text-decoration: none;
+    color: #ffce48;
+}
+
+.post-actions {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.like_button {
+    color: #80acf1;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.like_count {
+    padding-top: 6px;
+    text-align: center;
+    
+}
+
+
+
+
+/* Add this rule to offset the main content */
+body {
+    color: #ffffff;
+    
+}
